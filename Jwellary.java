@@ -22,7 +22,7 @@ class Jwellary{
 	public static void setOffer(char offer){
 		Jwellary.offer=offer;
 	}
-	public static void setPrice(byte price){
+	public static void setPrice(long price){
 		Jwellary.price=price;
 	}
 	public static void setShopNum(int number){

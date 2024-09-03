@@ -22,7 +22,7 @@ class Ref{
 	public static void setMonth(char month){
 		Ref.month=month;
 	}
-	public static void setPhNum(byte num){
+	public static void setPhNum(long num){
 		phNum=num;
 	}
 	public static void setHeight(int height){
