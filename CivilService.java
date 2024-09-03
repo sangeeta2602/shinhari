@@ -4,7 +4,8 @@ static String CsName;
 public static void setCsSalary(double salary)
 {
 	CsSalary=salary;
-}public static void setCsName(String name){
+}
+public static void setCsName(String name){
 	CsName=name;
 }
 public static double getCsSalary(){
