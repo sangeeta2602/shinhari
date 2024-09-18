@@ -9,7 +9,6 @@ public class HindiMovie {
 		
 	}
 	public HindiMovie(String movieName, double budget, String heroName) {
-		super();
 		this.movieName = movieName;
 		this.budget = budget;
 		this.heroName = heroName;
