@@ -78,11 +78,29 @@ public class Wedding {
 	}
 
 
+	public String toString() {
+		return "Wedding [siblingOfGroom=" + siblingOfGroom + ", totalfarRelatives=" + totalfarRelatives
+				+ ", ageOfGroom=" + ageOfGroom + ", ageOfBride=" + ageOfBride + ", varietyOfFood=" + varietyOfFood
+				+ ", groomFriends=" + groomFriends + ", preWeddingShootPrice=" + preWeddingShootPrice
+				+ ", brokerNumber=" + brokerNumber + ", isItLoveMarriage=" + isItLoveMarriage + ", brideRelatives="
+				+ brideRelatives + ", groomRelatives=" + groomRelatives + ", totalWeddingCards=" + totalWeddingCards
+				+ ", weddingCardPrice=" + weddingCardPrice + ", brideSideFriends=" + brideSideFriends
+				+ ", groomSideFriends=" + groomSideFriends + ", totalChildrens=" + totalChildrens + ", weddingDate="
+				+ weddingDate + ", registerMarriage=" + registerMarriage + ", totalChairs=" + totalChairs
+				+ ", weddingPrice=" + weddingPrice + ", chowtryBookingNumber=" + chowtryBookingNumber
+				+ ", egagementDate=" + egagementDate + ", dateOfWedding=" + dateOfWedding + ", engagementRingPrice="
+				+ engagementRingPrice + ", dowry=" + dowry + ", stageDecorationPrice=" + stageDecorationPrice
+				+ ", sareePrice=" + sareePrice + ", siblingOfBride=" + siblingOfBride + ", goldPrice=" + goldPrice
+				+ ", totalbrideSideRelatives=" + totalbrideSideRelatives + ", brokerFees=" + brokerFees
+				+ ", toatleGold=" + toatleGold + "]";
+	}
 
 
-	public int hashcode(int prime, int num) {
-		 prime=31;
-		 num=1;
+
+
+	public int hashcode() {
+		final int prime=31;
+		 int num=1;
 		int results = prime*num;
 		results=prime*num+(int)brokerFees;
 		results=prime*num*totalbrideSideRelatives;
@@ -113,6 +131,9 @@ public class Wedding {
 	    results=prime*num*(int)totalWeddingCards;
 		results=prime*num*weddingCardPrice;
 		results=prime*num*brideSideFriends;
+		results=prime*num*registerMarriage.hashCode();
+		results=prime*num*isItLoveMarriage.hashCode();
+		
 		
 		return results;
 	}
