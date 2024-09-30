@@ -8,62 +8,109 @@ public class Wedding {
 	public int varietyOfFood;
 	public int groomFriends;
 	public int preWeddingShootPrice;
-	public int brokerNumber;
-	public boolean isItLoveMarriage;
+	public long brokerNumber;
+	public Boolean isItLoveMarriage;
 	public int brideRelatives;
-	public int groomRelatives;
-	public int totalWeddingCards;
+	public double groomRelatives;
+	public float totalWeddingCards;
 	public int weddingCardPrice;
 	public int brideSideFriends;
-	public int groomSideFriends;
-	public int totalChildrens;
+	public double groomSideFriends;
+	public float totalChildrens;
 	public int weddingDate;
-	public boolean registerMarriage;
+	public Boolean registerMarriage;
 	public int totalChairs;
-	public int weddingPrice;
-	public int chowtryBookingNumber;
+	public float weddingPrice;
+	public long chowtryBookingNumber;
 	public int egagementDate;
 	public int dateOfWedding;
-	public int engagementRingPrice;
-	public int dowry;
-	public int stageDecorationPrice;
+	public float engagementRingPrice;
+	public double dowry;
+	public double stageDecorationPrice;
 	public int sareePrice;
 	public int siblingOfBride;
-	public int goldPrice;
+	public double goldPrice;
 	public int totalbrideSideRelatives;
-	public int brokerFees;
-	public int toatlGold;
+	public double brokerFees;
+	public int toatleGold;
 	
-	public int hashcode() {
-		int prime=31;
-		int num=1;
+	
+	public Wedding(int siblingOfGroom, int totalfarRelatives, int ageOfGroom, int ageOfBride, int varietyOfFood,
+			int groomFriends, int preWeddingShootPrice, long brokerNumber, Boolean isItLoveMarriage, int brideRelatives,
+			double groomRelatives, float totalWeddingCards, int weddingCardPrice, int brideSideFriends,
+			double groomSideFriends, float totalChildrens, int weddingDate, Boolean registerMarriage, int totalChairs,
+			float weddingPrice, long chowtryBookingNumber, int egagementDate, int dateOfWedding,
+			float engagementRingPrice, double dowry, double stageDecorationPrice, int sareePrice, int siblingOfBride,
+			double goldPrice, int totalbrideSideRelatives, double brokerFees, int toatleGold) {
+		
+		this.siblingOfGroom = siblingOfGroom;
+		this.totalfarRelatives = totalfarRelatives;
+		this.ageOfGroom = ageOfGroom;
+		this.ageOfBride = ageOfBride;
+		this.varietyOfFood = varietyOfFood;
+		this.groomFriends = groomFriends;
+		this.preWeddingShootPrice = preWeddingShootPrice;
+		this.brokerNumber = brokerNumber;
+		this.isItLoveMarriage = isItLoveMarriage;
+		this.brideRelatives = brideRelatives;
+		this.groomRelatives = groomRelatives;
+		this.totalWeddingCards = totalWeddingCards;
+		this.weddingCardPrice = weddingCardPrice;
+		this.brideSideFriends = brideSideFriends;
+		this.groomSideFriends = groomSideFriends;
+		this.totalChildrens = totalChildrens;
+		this.weddingDate = weddingDate;
+		this.registerMarriage = registerMarriage;
+		this.totalChairs = totalChairs;
+		this.weddingPrice = weddingPrice;
+		this.chowtryBookingNumber = chowtryBookingNumber;
+		this.egagementDate = egagementDate;
+		this.dateOfWedding = dateOfWedding;
+		this.engagementRingPrice = engagementRingPrice;
+		this.dowry = dowry;
+		this.stageDecorationPrice = stageDecorationPrice;
+		this.sareePrice = sareePrice;
+		this.siblingOfBride = siblingOfBride;
+		this.goldPrice = goldPrice;
+		this.totalbrideSideRelatives = totalbrideSideRelatives;
+		this.brokerFees = brokerFees;
+		this.toatleGold = toatleGold;
+	}
+
+
+
+
+	public int hashcode(int prime, int num) {
+		 prime=31;
+		 num=1;
 		int results = prime*num;
-		results=prime*num*brokerFees;
+		results=prime*num+(int)brokerFees;
 		results=prime*num*totalbrideSideRelatives;
-		results=prime*num*goldPrice;
-		results=prime*num*toatlGold;
+		results=prime*num*(int)goldPrice;
+		results=prime*num*(int)toatleGold;
 		results=prime*num*sareePrice;
-		results=prime*num*stageDecorationPrice;
-		results=prime*num*engagementRingPrice;
+		results=prime*num*(int)dowry;
+		results=prime*num*(int)stageDecorationPrice;
+		results=prime*num*(int)engagementRingPrice;
 		results=prime*num*dateOfWedding;
 		results=prime*num*egagementDate;
-		results=prime*num*chowtryBookingNumber;
-		results=prime*num*weddingPrice;
+		results=prime*num*(int)chowtryBookingNumber;
+		results=prime*num*(int)weddingPrice;
 		results=prime*num*siblingOfBride;
 		results=prime*num*weddingDate;
-		results=prime*num*totalChildrens;
-		results=prime*num*groomSideFriends;
+		results=prime*num*(int)totalChildrens;
+		results=prime*num*(int)groomSideFriends;
 		results=prime*num*siblingOfGroom;
 		results=prime*num*totalfarRelatives;
 		results=prime*num*ageOfGroom;
 		results=prime*num*ageOfBride;
 		results=prime*num*varietyOfFood;
-		results=prime*num*groomSideFriends;
+		results=prime*num*(int)groomSideFriends;
 		results=prime*num*preWeddingShootPrice;
-		results=prime*num*brokerNumber;
+		results=prime*num*(int)brokerNumber;
 		results=prime*num*brideRelatives;
-		results=prime*num*groomRelatives;
-		results=prime*num*totalWeddingCards;
+		results=prime*num*(int)groomRelatives;
+	    results=prime*num*(int)totalWeddingCards;
 		results=prime*num*weddingCardPrice;
 		results=prime*num*brideSideFriends;
 		
