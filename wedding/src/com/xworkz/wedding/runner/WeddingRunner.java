@@ -6,7 +6,8 @@ public class WeddingRunner {
 	public static void main(String [] args) {
 		
 		Wedding wedding=new Wedding();
-		wedding.hashcode();
+		int details=wedding.hashcode();
+		System.out.println(details);
 		
 	}
 
