@@ -11,37 +11,38 @@ public class Wedding {
 	public long brokerNumber;
 	public Boolean isItLoveMarriage;
 	public int brideRelatives;
-	public double groomRelatives;
-	public float totalWeddingCards;
+	public int groomRelatives;
+	public int totalWeddingCards;
 	public int weddingCardPrice;
 	public int brideSideFriends;
-	public double groomSideFriends;
-	public float totalChildrens;
+	public int groomSideFriends;
+	public int totalChildrens;
 	public int weddingDate;
 	public Boolean registerMarriage;
 	public int totalChairs;
-	public float weddingPrice;
+	public int weddingPrice;
 	public long chowtryBookingNumber;
 	public int egagementDate;
 	public int dateOfWedding;
-	public float engagementRingPrice;
-	public double dowry;
-	public double stageDecorationPrice;
+	public int engagementRingPrice;
+	public int dowry;
+	public int stageDecorationPrice;
 	public int sareePrice;
 	public int siblingOfBride;
-	public double goldPrice;
+	public int goldPrice;
 	public int totalbrideSideRelatives;
-	public double brokerFees;
+	public int brokerFees;
 	public int toatleGold;
+	
 	
 	
 	public Wedding(int siblingOfGroom, int totalfarRelatives, int ageOfGroom, int ageOfBride, int varietyOfFood,
 			int groomFriends, int preWeddingShootPrice, long brokerNumber, Boolean isItLoveMarriage, int brideRelatives,
-			double groomRelatives, float totalWeddingCards, int weddingCardPrice, int brideSideFriends,
-			double groomSideFriends, float totalChildrens, int weddingDate, Boolean registerMarriage, int totalChairs,
-			float weddingPrice, long chowtryBookingNumber, int egagementDate, int dateOfWedding,
-			float engagementRingPrice, double dowry, double stageDecorationPrice, int sareePrice, int siblingOfBride,
-			double goldPrice, int totalbrideSideRelatives, double brokerFees, int toatleGold) {
+			int groomRelatives,int totalWeddingCards, int weddingCardPrice, int brideSideFriends,
+			int groomSideFriends,int totalChildrens, int weddingDate, Boolean registerMarriage, int totalChairs,
+			int weddingPrice, long chowtryBookingNumber, int egagementDate, int dateOfWedding,
+			int engagementRingPrice,int dowry,int stageDecorationPrice, int sareePrice, int siblingOfBride,
+			int goldPrice, int totalbrideSideRelatives,int brokerFees, int toatleGold) {
 		
 		this.siblingOfGroom = siblingOfGroom;
 		this.totalfarRelatives = totalfarRelatives;
