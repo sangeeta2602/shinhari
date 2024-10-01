@@ -1,7 +1,7 @@
 package com.xworkz.equalmethod.boot;
 
 public class Phone {
-	public String brandName;
+	 public String brandName;
 	 public int priceOfPhone;
 	 public int series;
 	 public Boolean isItAffordable;

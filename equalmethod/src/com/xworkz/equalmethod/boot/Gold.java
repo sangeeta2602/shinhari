@@ -5,7 +5,7 @@ public class Gold {
 	 public int totalShops;
 	 public float gst;
 	 public String largestGoldMiningPlace ;
-	public int goldPrice;
+ 	 public int goldPrice;
 	 public int formsOfGold ;
 	 public int typesOfGold;
 	 public int typesOfMining;

@@ -7,11 +7,12 @@ public class College {
 	 public Boolean isItPrivate;
 	 public String chancellorName;
 	 public int totalBlocksInClg;
-	public int totalBranches;
-	public int kCetStudentsStrength;
+	 public int totalBranches;
+	 public int kCetStudentsStrength;
 	 public String hodName;
 	 public Boolean isThereLibrary;
-	public College(double clgFees, String clgName, String branchName, Boolean isItPrivate, String chancellorName,
+	
+	 public College(double clgFees, String clgName, String branchName, Boolean isItPrivate, String chancellorName,
 			int totalBlocksInClg, int totalBranches, int kCetStudentsStrength, String hodName, Boolean isThereLibrary) {
 		this.clgFees = clgFees;
 		this.clgName = clgName;

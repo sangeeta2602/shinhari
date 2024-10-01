@@ -7,6 +7,9 @@ import com.xworkz.equalmethod.boot.Phone;
 import com.xworkz.equalmethod.boot.College;
 import com.xworkz.equalmethod.boot.Vegetable;
 import com.xworkz.equalmethod.boot.Temple;
+import com.xworkz.equalmethod.boot.Parlour;
+import com.xworkz.equalmethod.boot.School;
+import com.xworkz.equalmethod.boot.Laptop;
 
 public class AllRunner {
 
@@ -31,6 +34,16 @@ public class AllRunner {
 		   
 		   Temple temple=new Temple(200,"yeshwanthpur","krishna",true,32000,3000,10,20,"manjunath",true);
 		   System.out.println(temple.equals(temple));
+		   
+		   School school=new School("Don Boosco",32000,"rajajinagar",true,"likitha",50,true,"8th","kusuma ",35);
+		   System.out.println(school.equals(school));
+		   
+		   Parlour parlour=new Parlour("shubha parlour",800,"shubha",true,"lotus",8,38,32000,"mathikere",true);
+		   System.out.println(parlour.equals(parlour));
+		   
+		   Laptop laptop=new Laptop(" hp",32000,"intel i7",true,"8 gb",8,32,"ventatesh ",true,"black");
+		   System.out.println(laptop.equals(laptop));
+
 		   
 	   }
 

@@ -39,7 +39,8 @@ public class Book {
 		 }
 		 Book book=(Book) obj;
 		 
-		 return brandName.equals(book.brandName) && priceOfBook==book.priceOfBook && totalTypesBook==book.totalTypesBook && isItReuseful.equals(book.isItReuseful) && onlineBookPrice==book.onlineBookPrice  && storyBookName.equals(book.storyBookName) && noOfPages==book.noOfPages && kingSizeBookPrice==book.kingSizeBookPrice && cutSizeBook==book.cutSizeBook;
+		 return brandName.equals(book.brandName) && priceOfBook==book.priceOfBook && totalTypesBook==book.totalTypesBook && isItReuseful.equals(book.isItReuseful) && onlineBookPrice==book.onlineBookPrice  && storyBookName.equals(book.storyBookName) && noOfPages==book.noOfPages && kingSizeBookPrice==book.kingSizeBookPrice && cutSizeBook==book.cutSizeBook
+				&& lowQualityOrHighQuality.equals(book.lowQualityOrHighQuality);
 	 }
 
 }

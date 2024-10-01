@@ -1,17 +1,18 @@
 package com.xworkz.equalmethod.boot;
 
 public class Temple {
-	public int donationMoneyForTemple;
+	 public int donationMoneyForTemple;
 	 public String templeLocatedArea;
 	 public String godName;
 	 public Boolean isGodThere;
 	 public int maintanceMoney;
 	 public int devoties;
-	public int totalGodsInTemple;
-	public int prasadRate;
+	 public int totalGodsInTemple;
+	 public int prasadRate;
 	 public String pujariName;
 	 public Boolean isTherePrasad;
-	public Temple(int donationMoneyForTemple, String templeLocatedArea, String godName, Boolean doesGodBlessUs,
+	
+	 public Temple(int donationMoneyForTemple, String templeLocatedArea, String godName, Boolean doesGodBlessUs,
 			int maintanceMoney, int devoties, int totalGodsInTemple, int prasadRate, String pujariName,
 			Boolean isTherePrasad) {
 	
