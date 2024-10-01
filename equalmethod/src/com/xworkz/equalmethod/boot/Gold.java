@@ -14,7 +14,6 @@ public class Gold {
 	 
 public Gold(String nameOfShop, int totalShops, float gst, String largestGoldMiningPlace, int goldPrice,
 			int formsOfGold, int typesOfGold, int typesOfMining, Boolean isItDuctile, Boolean pureOrNot) {
-		super();
 		this.nameOfShop = nameOfShop;
 		this.totalShops = totalShops;
 		this.gst = gst;

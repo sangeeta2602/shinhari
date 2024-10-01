@@ -13,7 +13,6 @@ public class College {
 	 public Boolean isThereLibrary;
 	public College(double clgFees, String clgName, String branchName, Boolean isItPrivate, String chancellorName,
 			int totalBlocksInClg, int totalBranches, int kCetStudentsStrength, String hodName, Boolean isThereLibrary) {
-		super();
 		this.clgFees = clgFees;
 		this.clgName = clgName;
 		this.branchName = branchName;

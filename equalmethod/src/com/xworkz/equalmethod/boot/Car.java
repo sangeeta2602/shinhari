@@ -14,7 +14,6 @@ public class Car {
 	 public Boolean petrolOrDiselCar;
 	public Car(float carPrice, String carColor, String models, Boolean isItAffordablePrice, String brandName,
 			Boolean isItNewCar, double milage, int totalSeats, Boolean isCarSunroof, Boolean petrolOrDiselCar) {
-		super();
 		this.carPrice = carPrice;
 		this.carColor = carColor;
 		this.models = models;

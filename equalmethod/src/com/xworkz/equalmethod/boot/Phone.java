@@ -14,7 +14,7 @@ public class Phone {
 	 
 	public Phone(String brandName, int priceOfPhone, int series, Boolean isItAffordable, int version, int onlinePrice,
 			Boolean foldingTypeOrNot, int generation, Boolean andriodOrIphone, int storageCapacity) {
-		super();
+	
 		this.brandName = brandName;
 		this.priceOfPhone = priceOfPhone;
 		this.series = series;

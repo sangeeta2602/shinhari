@@ -5,6 +5,9 @@ import com.xworkz.equalmethod.boot.Car;
 import com.xworkz.equalmethod.boot.Gold;
 import com.xworkz.equalmethod.boot.Phone;
 import com.xworkz.equalmethod.boot.College;
+import com.xworkz.equalmethod.boot.Vegetable;
+import com.xworkz.equalmethod.boot.Temple;
+
 public class AllRunner {
 
 	public static void main(String [] args) {
@@ -22,6 +25,12 @@ public class AllRunner {
 		   
 		  College clg=new College(105000.0d,"Reva University","CSSE",true,"dr.shyam raju",3,150,5000,"Dr.Mallikarjun",true);
 		   System.out.println(clg.equals(clg));
+		   
+		   Vegetable veg=new Vegetable(40,"k r market",30,true,"hanumanta",15,10,2000,"chikpete",true);
+		   System.out.println(veg.equals(veg));
+		   
+		   Temple temple=new Temple(200,"yeshwanthpur","krishna",true,32000,3000,10,20,"manjunath",true);
+		   System.out.println(temple.equals(temple));
 		   
 	   }
 
